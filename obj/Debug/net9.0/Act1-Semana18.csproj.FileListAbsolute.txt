@@ -1,0 +1,14 @@
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\bin\Debug\net9.0\Act1-Semana18.exe
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\bin\Debug\net9.0\Act1-Semana18.deps.json
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\bin\Debug\net9.0\Act1-Semana18.runtimeconfig.json
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\bin\Debug\net9.0\Act1-Semana18.dll
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\bin\Debug\net9.0\Act1-Semana18.pdb
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\obj\Debug\net9.0\Act1-Semana18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\obj\Debug\net9.0\Act1-Semana18.AssemblyInfoInputs.cache
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\obj\Debug\net9.0\Act1-Semana18.AssemblyInfo.cs
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\obj\Debug\net9.0\Act1-Semana18.csproj.CoreCompileInputs.cache
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\obj\Debug\net9.0\Act1-Semana18.dll
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\obj\Debug\net9.0\refint\Act1-Semana18.dll
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\obj\Debug\net9.0\Act1-Semana18.pdb
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\obj\Debug\net9.0\Act1-Semana18.genruntimeconfig.cache
+C:\Users\ojela\OneDrive\Documentos\PRUEBAS\Teoría\Act1-Semana18\obj\Debug\net9.0\ref\Act1-Semana18.dll
