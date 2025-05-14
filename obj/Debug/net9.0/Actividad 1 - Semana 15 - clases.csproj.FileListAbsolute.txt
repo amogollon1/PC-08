@@ -1,0 +1,14 @@
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\bin\Debug\net9.0\Actividad 1 - Semana 15 - clases.exe
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\bin\Debug\net9.0\Actividad 1 - Semana 15 - clases.deps.json
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\bin\Debug\net9.0\Actividad 1 - Semana 15 - clases.runtimeconfig.json
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\bin\Debug\net9.0\Actividad 1 - Semana 15 - clases.dll
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\bin\Debug\net9.0\Actividad 1 - Semana 15 - clases.pdb
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\obj\Debug\net9.0\Actividad 1 - Semana 15 - clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\obj\Debug\net9.0\Actividad 1 - Semana 15 - clases.AssemblyInfoInputs.cache
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\obj\Debug\net9.0\Actividad 1 - Semana 15 - clases.AssemblyInfo.cs
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\obj\Debug\net9.0\Actividad 1 - Semana 15 - clases.csproj.CoreCompileInputs.cache
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\obj\Debug\net9.0\Actividad 1 - Semana 15 - clases.dll
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\obj\Debug\net9.0\refint\Actividad 1 - Semana 15 - clases.dll
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\obj\Debug\net9.0\Actividad 1 - Semana 15 - clases.pdb
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\obj\Debug\net9.0\Actividad 1 - Semana 15 - clases.genruntimeconfig.cache
+C:\Users\ojela\OneDrive\Documentos\URL\Pensamiento Computacional\Actividad 1 - Semana 15 - clases\obj\Debug\net9.0\ref\Actividad 1 - Semana 15 - clases.dll

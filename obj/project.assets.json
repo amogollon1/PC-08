@@ -14,11 +14,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ojela\\OneDrive\\Documentos\\PRUEBAS\\Teoría\\Act1-Semana18\\Act1-Semana18.csproj",
       "projectName": "Act1-Semana18",
       "projectPath": "C:\\Users\\ojela\\OneDrive\\Documentos\\PRUEBAS\\Teoría\\Act1-Semana18\\Act1-Semana18.csproj",
       "packagesPath": "C:\\Users\\ojela\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ojela\\OneDrive\\Documentos\\PRUEBAS\\Teoría\\Act1-Semana18\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\ojela\\OneDrive\\Documentos\\URL\\Pensamiento Computacional\\Actividad 1 - Semana 15 - clases\\Actividad 1 - Semana 15 - clases.csproj",
+      "projectName": "Actividad 1 - Semana 15 - clases",
+      "projectPath": "C:\\Users\\ojela\\OneDrive\\Documentos\\URL\\Pensamiento Computacional\\Actividad 1 - Semana 15 - clases\\Actividad 1 - Semana 15 - clases.csproj",
+      "packagesPath": "C:\\Users\\ojela\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ojela\\OneDrive\\Documentos\\URL\\Pensamiento Computacional\\Actividad 1 - Semana 15 - clases\\obj\\",
+>>>>>>> 8080fd40141fb3545dc5bcc596129cfdc8d79391
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

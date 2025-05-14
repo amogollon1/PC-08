@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "yqlJYRMKd7Y=",
   "success": true,
   "projectFilePath": "C:\\Users\\ojela\\OneDrive\\Documentos\\PRUEBAS\\Teoría\\Act1-Semana18\\Act1-Semana18.csproj",
+=======
+  "dgSpecHash": "Hr6trAdcctE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ojela\\OneDrive\\Documentos\\URL\\Pensamiento Computacional\\Actividad 1 - Semana 15 - clases\\Actividad 1 - Semana 15 - clases.csproj",
+>>>>>>> 8080fd40141fb3545dc5bcc596129cfdc8d79391
   "expectedPackageFiles": [],
   "logs": []
 }
