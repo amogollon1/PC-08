@@ -1,9 +1,105 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Página-1" id="J2f2R7jgCvgilMDnywHH">
-    <mxGraphModel>
+    <mxGraphModel dx="1281" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-1" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-2" value="-usuario&lt;div&gt;-documento de identificación&lt;/div&gt;&lt;div&gt;-metodo de pago&lt;/div&gt;&lt;div&gt;-restaurante&lt;/div&gt;&lt;div&gt;-pedido&lt;/div&gt;&lt;div&gt;-contacto&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-1">
+          <mxGeometry y="26" width="180" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-1">
+          <mxGeometry y="120" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-4" value="+realizarPago()&lt;div&gt;+ingresarPedido()&lt;/div&gt;&lt;div&gt;+definirMetodoPago()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-1">
+          <mxGeometry y="128" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-5" value="Pedido" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-6" value="-idPedido&lt;div&gt;-idRestaurante&lt;/div&gt;&lt;div&gt;-idCliente&lt;/div&gt;&lt;div&gt;-estadoPedido&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-5">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-5">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-8" value="+recibirPedido()&lt;div&gt;+estadoPedido()&lt;/div&gt;&lt;div&gt;+devolverPedido()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-5">
+          <mxGeometry y="108" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-9" value="MétodoPago" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-10" value="-idCliente&lt;div&gt;-metodoPago&lt;/div&gt;&lt;div&gt;-idRestaurante&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-9">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-9">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-12" value="+validarMetodoPago()&lt;div&gt;+validarTransaccion()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-9">
+          <mxGeometry y="98" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-13" value="Restaurante" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-14" value="-nombre&lt;div&gt;-menú&lt;/div&gt;&lt;div&gt;-metodosPago&lt;/div&gt;&lt;div&gt;-horario&lt;/div&gt;&lt;div&gt;-ubicación&lt;/div&gt;&lt;div&gt;-contacto&lt;/div&gt;&lt;div&gt;-empleados&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-13">
+          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-13">
+          <mxGeometry y="140" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-16" value="+recibirPedido()&lt;div&gt;+contactarCliente()&lt;/div&gt;&lt;div&gt;+cobrarPedido()&lt;/div&gt;&lt;div&gt;+entregarPedido()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-13">
+          <mxGeometry y="148" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-17" value="Menu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-18" value="-idRestaurante&lt;div&gt;-opcionesMenu&lt;/div&gt;&lt;div&gt;-disponibilidadOpcion&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-17">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-17">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-20" value="+disponibilidad()&lt;div&gt;+mostrarMenu()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_jtNC3GYe5M7j5pt7POJ-17">
+          <mxGeometry y="98" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-21" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1.003;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_jtNC3GYe5M7j5pt7POJ-4" target="_jtNC3GYe5M7j5pt7POJ-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="260" as="sourcePoint" />
+            <mxPoint x="490" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-22" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.114;exitY=1.046;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_jtNC3GYe5M7j5pt7POJ-8" target="_jtNC3GYe5M7j5pt7POJ-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="250" as="sourcePoint" />
+            <mxPoint x="530" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.999;exitY=0.13;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.169;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_jtNC3GYe5M7j5pt7POJ-14" target="_jtNC3GYe5M7j5pt7POJ-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="340" as="sourcePoint" />
+            <mxPoint x="500" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.23;exitY=1.069;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_jtNC3GYe5M7j5pt7POJ-4" target="_jtNC3GYe5M7j5pt7POJ-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="20" y="420" as="sourcePoint" />
+            <mxPoint x="170" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-25" value="Cada cliente debe contar con un &lt;br&gt;método de pago válido" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-26" value="Cada pedido debe estar asignado&lt;br&gt;a un cliente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-27" value="Cada pedido de estar relacionado&lt;br&gt;con el restaurante que lo provee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_jtNC3GYe5M7j5pt7POJ-28" value="Cada restaurante debe contar con&lt;br&gt;un menú para mostrar" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="210" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
